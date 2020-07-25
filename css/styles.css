@@ -3,6 +3,11 @@ body{
   margin: 0 0 0 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+span{
+  font-size: 2rem;
 }
 
 h1{
@@ -12,13 +17,10 @@ h1{
   color: #66BFBF;
 }
 h2{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #66BFBF;
 }
-span{
-  text-decoration: underline;
-  line-height: 2;
-}
+
 
 h3{
   color: #11999E;
@@ -34,6 +36,7 @@ hr{
 p{
   font-family: 'Montserrat', sans-serif;
   color: #40514E;
+  line-height: 2;
 }
 
 a{
@@ -43,8 +46,14 @@ a{
   color: #11999E;
   margin: auto 10px;
 }
-
+a:hover{
+  color: #30e3cb;
+}
 /******************************CLASS SELECTORS***************************/
+.propro{
+  text-decoration: underline;
+  line-height: 2;
+}
 
 .pro{
   margin-top: 20px;
@@ -59,7 +68,7 @@ a{
 }
 
 .middle-container{
-  margin: 50PX auto 50PX auto;
+  margin: 200px 0;
   color: #40514E;
 }
 
@@ -101,6 +110,9 @@ a{
   float: right;
   margin: 50px 0 auto 40px;
 }
+.skill{
+  margin-top: 150px;
+}
 
 .skill-row {
   margin: 100px auto ;
@@ -108,6 +120,18 @@ a{
   text-align: left;
   line-height: 2;
 }
+
+.skill-row2{
+
+  margin: 150px auto ;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.work-part{
+  margin: 150px auto;
+}
+
 .row-skill-h3{
   margin-bottom: 0;
   margin-left: 15px;
@@ -134,11 +158,35 @@ a{
   left: auto;
   right: auto;
   top: 30px;
-  color: white;
-  background-color:  #11999E;
   padding: 10px 10px;
   border-radius: 8px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+  color: #ffffff
 }
 
 .contact-para{
@@ -149,4 +197,12 @@ a{
   padding:  50px;
   background-color:   #66BFBF;
   margin-bottom: 0;
+}
+.footer-link:hover{
+  color: #ffffff;
+}
+
+.copyright{
+  margin: 50px auto 2px;;
+  color: white;
 }
